@@ -7,10 +7,10 @@ int main() {
     scanf("%d", &divisor);
 
     // Computes quotient
-    quotient = dividend / divisor;
+    remainder = dividend / divisor;
 
     // Computes remainder
-    remainder = dividend % divisor;
+    quotient = dividend % divisor;
 
     printf("Quotient = %d\n", quotient);
     printf("Remainder = %d", remainder);
